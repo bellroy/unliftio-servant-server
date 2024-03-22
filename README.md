@@ -1,6 +1,6 @@
 # UnliftIO Support for `servant-server`
 
-APIs written in any `MonadUnliftIO m` can be converted to `wai`
+Servant APIs written in any `MonadUnliftIO m` can be converted to `wai`
 `Application`s without writing the natural transformation by
 hand. These functions will return `m Application` which means that either:
 
