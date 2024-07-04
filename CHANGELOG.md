@@ -1,4 +1,4 @@
-# Revision history for servant-activeresource
+# Revision history for unliftio-servant-server
 
 ## 0.1.0.0 -- 2024-07-05
 
