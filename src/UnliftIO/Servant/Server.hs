@@ -25,6 +25,8 @@
 -- Example use:
 --
 -- @
+-- import Network.Wai.Handler.Warp (runEnv)
+--
 -- -- Some kind of Servant API
 -- type MyApi = ... :\<|\> ... :\<|\> ...
 --
