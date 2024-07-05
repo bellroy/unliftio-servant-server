@@ -29,7 +29,7 @@ tested-with:
 
 source-repository head
   type:     git
-  location: https://github.com/bellroy/haskell.git
+  location: https://github.com/bellroy/unliftio-servant-server.git
 
 common opts
   default-language: Haskell2010
@@ -39,9 +39,6 @@ common opts
     -Wredundant-constraints -Wpartial-fields -Wtabs
     -Wmissing-local-signatures -fhelpful-errors
     -fprint-expanded-synonyms -fwarn-unused-do-bind
-
-common opts-exe
-  ghc-options: -threaded
 
 common deps
   build-depends:
