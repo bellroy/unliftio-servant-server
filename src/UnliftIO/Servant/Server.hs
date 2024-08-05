@@ -56,6 +56,7 @@ where
 
 import Control.Monad ((>=>))
 import Control.Monad.Except (ExceptT, runExceptT, throwError)
+import Control.Monad.IO.Unlift (MonadUnliftIO (..), liftIO)
 import Data.Proxy (Proxy)
 import Servant.API.Generic (AsApi, GenericServant, ToServant, ToServantApi)
 import Servant.Server
@@ -68,7 +69,6 @@ import Servant.Server
 import qualified Servant.Server as Servant
 import Servant.Server.Generic (AsServerT)
 import qualified Servant.Server.Generic as Servant
-import UnliftIO (MonadUnliftIO (..), liftIO)
 
 -- | Convert a Servant API into an 'Application', by unlifting the
 -- monad in which it runs.
