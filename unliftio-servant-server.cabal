@@ -1,6 +1,6 @@
 cabal-version:   3.0
 name:            unliftio-servant-server
-version:         0.1.0.0
+version:         0.1.0.1
 synopsis:        Use MonadUnliftIO on servant APIs
 description:
   unliftio-servant-server provides convenience functions for running
