@@ -8,11 +8,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1724219050,
-        "narHash": "sha256-F1mRyvVulw0KRRwp6Zn0d/FUUanF1ZSHWNpD7mGqFDM=",
+        "lastModified": 1724294608,
+        "narHash": "sha256-08ckkY81cvEbRM6Fvog0leRVvF2yzqFLnEWCDmE1LQM=",
         "owner": "bellroy",
         "repo": "bellroy-nix-foss",
-        "rev": "90606a285f04ed25e5d4848759d0849057c26fc6",
+        "rev": "0966286b1f39ae7601bd6be79dd0405e7267a493",
         "type": "github"
       },
       "original": {
