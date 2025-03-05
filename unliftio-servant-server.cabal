@@ -20,7 +20,13 @@ extra-doc-files:
   README.md
 
 tested-with:
-  GHC ==8.10.7 || ==9.0.2 || ==9.2.4 || ==9.4.5 || ==9.6.6 || ==9.8.2
+  GHC ==8.10.7
+   || ==9.0.2
+   || ==9.2.4
+   || ==9.4.5
+   || ==9.6.6
+   || ==9.8.2
+   || ==9.10.1
 
 source-repository head
   type:     git
