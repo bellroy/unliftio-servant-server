@@ -27,6 +27,7 @@ tested-with:
    || ==9.6.6
    || ==9.8.2
    || ==9.10.1
+   || ==9.12.1
 
 source-repository head
   type:     git
@@ -43,7 +44,7 @@ library
     -fprint-expanded-synonyms -fwarn-unused-do-bind
 
   build-depends:
-    , base            >=4.14    && <4.21
+    , base            >=4.14    && <4.22
     , mtl             >=2.2.2   && <2.4
     , servant         >=0.19    && <0.21
     , servant-server  >=0.19    && <0.21
