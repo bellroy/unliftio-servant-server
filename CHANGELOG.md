@@ -1,5 +1,9 @@
 # Revision history for unliftio-servant-server
 
+## 0.1.0.2 -- 2026-04-15
+
+* Fix documentation.
+
 ## 0.1.0.1 -- 2024-08-07
 
 * Use `unliftio-core` instead of `unliftio` for smaller dependency
