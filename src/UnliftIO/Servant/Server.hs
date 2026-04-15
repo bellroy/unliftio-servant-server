@@ -36,7 +36,7 @@
 --
 -- main :: IO ()
 -- main = runSomeApplicationMonad $ do
---   app <- 'serve' myApi
+--   app <- 'serve' (Proxy :: Proxy MyApi) myApi
 --   liftIO $ runEnv 3000 app
 -- @
 module UnliftIO.Servant.Server
