@@ -7,11 +7,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1780979320,
-        "narHash": "sha256-GGdkyUw4drXmBRq8+vPjdVWud91IN/4uckxsMKKo3dI=",
+        "lastModified": 1781048285,
+        "narHash": "sha256-w0m2DnFjFe35WcFRIaW/laEMZywCWhrOL/mn8iZxh0g=",
         "owner": "bellroy",
         "repo": "bellroy-nix-foss",
-        "rev": "8fecf770a0d98bace83448ab4afd48bf2a9698ed",
+        "rev": "6e2dd52d93bd3fb08dc4191dc188280b8a5cfd0e",
         "type": "github"
       },
       "original": {
@@ -101,16 +101,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1780815147,
-        "narHash": "sha256-FSDVygpoXrYLH5ZYcqjNkCZzzQrRYZW3awA9vDgb60g=",
+        "lastModified": 1780773863,
+        "narHash": "sha256-t0AXyb11HJHwyRkCed8y15unmgwVlbgcIEVdV1XxYvA=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "9a681e663d65ff3b0c636df6c7cfbad31e1ed311",
+        "rev": "20872773637de0b44f7ac04cde2098db1286e6d5",
         "type": "github"
       },
       "original": {
         "id": "nixpkgs",
-        "ref": "nixpkgs-25.11-darwin",
+        "ref": "nixpkgs-26.05-darwin",
         "type": "indirect"
       }
     },
