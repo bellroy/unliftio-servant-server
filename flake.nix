@@ -1,6 +1,6 @@
 {
   inputs = {
-    bellroy-nix-foss.url = "github:bellroy/bellroy-nix-foss";
+    bellroy-nix-foss.url = "github:bellroy/bellroy-nix-foss/chore/dud260609";
   };
 
   outputs =
@@ -13,6 +13,7 @@
         "ghc98"
         "ghc910"
         "ghc912"
+        "ghc914"
       ];
       defaultCompiler = "ghc910";
     };
