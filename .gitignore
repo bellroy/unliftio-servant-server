@@ -5,3 +5,4 @@ dist/
 result
 .direnv
 .envrc
+out.log
