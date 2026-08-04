@@ -44,7 +44,7 @@ library
     -fprint-expanded-synonyms -fwarn-unused-do-bind
 
   build-depends:
-    , base            >=4.14    && <4.22
+    , base >=4.14 && <4.23
     , mtl             >=2.2.2   && <2.4
     , servant         >=0.19    && <0.21
     , servant-server  >=0.19    && <0.21
